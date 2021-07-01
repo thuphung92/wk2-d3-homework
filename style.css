@@ -1,0 +1,57 @@
+:root {
+    --yellow: #FF9900;
+}
+
+.form-container {
+    border: 1px solid lightgrey;
+    padding: 40px 20px 15px;
+}
+
+.btn-default {
+    background-color: var(--yellow);
+}
+
+h1 {
+    padding: 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#password-label {
+    float: left;
+}
+#passwordHelp {
+    float: right;
+    margin: 0 0 8px;
+}
+
+.below-form-box {
+    padding: 0 8px;
+}
+
+.below-form-box > button {
+    background-color: lightgrey;
+}
+
+.createAcct {
+    width: 100%; 
+   border-bottom: 1px solid lightgrey; 
+   line-height: 0.1em;
+   margin: 20px 0 20px; 
+}
+
+.createAcct span {
+    background: #fff;
+    padding: 0 10px;
+}
+.links a {
+    display: inline-block;
+    padding: 12px;
+}
+
+footer {
+    font-size: 12px;
+    border-top: 1px solid lightgrey;
+}
